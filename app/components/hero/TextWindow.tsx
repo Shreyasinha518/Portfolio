@@ -41,7 +41,7 @@ const TextWindow = () => {
         fontSize={1.3}
         position={[0.12, 0, -1.4]}
         rotation={[0, 0,  -Math.PI / 2]}>
-        Python & Data Analytics Enthusiast
+        PYTHON & DATA ANALYTICS
       </Text>
 
       <group position={[-0.45, 0, -0.3]}>
@@ -50,7 +50,7 @@ const TextWindow = () => {
           scale={[1, -1, 1]}
           fontSize={0.8}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-          DESIGNER. PYTHON DEVELOPER.
+          DESIGN · PYTHON DEVELOPMENT
         </Text>
 
         <Text color="white" anchorX="left" anchorY="middle"
@@ -59,7 +59,7 @@ const TextWindow = () => {
           fontSize={0.8}
           position={[0, 0, -0.6]}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-         MACHINE LEARNING ENGINEER.
+         MACHINE LEARNING
         </Text>
       </group>
 
@@ -69,7 +69,7 @@ const TextWindow = () => {
           scale={[-1, -1, 1]}
           fontSize={0.8}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-          ANCHORING. CREATIVE
+          CREATIVE TECHNOLOGY
         </Text>
         <Text color="white" anchorX="right" anchorY="middle"
           {...fontProps}
@@ -77,7 +77,7 @@ const TextWindow = () => {
           fontSize={0.8}
           position={[0, 0, -0.6]}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-          CREATIVE. OPTIMIST
+          ANALYTICAL · CREATIVE
         </Text>
       </group>
     </group>

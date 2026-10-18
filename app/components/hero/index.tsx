@@ -30,12 +30,12 @@ const Hero = () => {
 
   const fontProps = {
     font: "./soria-font.ttf",
-    fontSize: 1.2,
+    fontSize: 2.2,
   };
 
   return (
     <>
-      <Text position={[0, 2, -10]} {...fontProps} ref={titleRef}>HELLO! I AM SHREYA SINHA.</Text>
+      <Text position={[0, 2, -10]} {...fontProps} ref={titleRef}>SHREYA SINHA</Text>
       <StarsContainer />
       <CloudContainer/>
       <group position={[0, -25, 5.69]}>

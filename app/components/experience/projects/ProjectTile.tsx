@@ -101,7 +101,7 @@ const ProjectTile = ({ project, index, position, rotation, activeId, onClick }: 
       <group ref={projectRef}>
         <mesh>
           <planeGeometry args={[4.2, 2, 1]} />
-          <meshBasicMaterial color="#FFF" transparent opacity={0.3}/>
+          <meshBasicMaterial color="#EEE9E0" transparent opacity={0.88}/>
           {/* <meshPhysicalMaterial transmission={1} roughness={0.3} /> */}
           <Edges color="black" lineWidth={1.5} />
         </mesh>
