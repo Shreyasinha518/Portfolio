@@ -39,7 +39,7 @@ const ProjectTile = ({ project, index, position, rotation, activeId, onClick }: 
     if (!projectRef.current) return;
     hoverAnimRef.current?.kill();
 
-    const [mesh, title, dateGroup, textBox, button] = projectRef.current.children;
+    const [mesh, title, categoryGroup, textBox, button] = projectRef.current.children;
 
     hoverAnimRef.current = gsap.timeline();
     hoverAnimRef.current
@@ -54,7 +54,7 @@ const ProjectTile = ({ project, index, position, rotation, activeId, onClick }: 
       .to(textBox.position, { y: hovered ? 0.7 : 0 }, 0)
       // .to(textBox.scale, { y: hovered ? 1 : 0, x: hovered ? 1 : 0 }, 0)
       .to(textBox, { fillOpacity: hovered ? 1 : 0, duration: 0.4 }, 0)
-      .to(dateGroup.position, { y: hovered ? 2.6 : 1.4 }, 0)
+      .to(categoryGroup.position, { y: hovered ? 2.6 : 1.4 }, 0)
       .to(mesh.scale, { y: hovered ? 2 : 1 }, 0)
       .to((mesh as THREE.Mesh).material, { opacity: hovered ? 0.95 : 0.3 }, 0)
       .to(mesh.position, { y: hovered ? 1 : 0 }, 0);
@@ -114,17 +114,17 @@ const ProjectTile = ({ project, index, position, rotation, activeId, onClick }: 
           fontSize={0.8}>
           {project.title}
         </Text>
-        <group position={[-1.25, 1.4, 0.01]}>
+        <group position={[-0.65, 1.4, 0.01]}>
           <mesh>
-            <planeGeometry args={[1.7, 0.4, 1]} />
+            <planeGeometry args={[2.8, 0.4, 1]} />
             <meshBasicMaterial color="#777" opacity={0} wireframe />
             <Edges color="black" lineWidth={1} />
           </mesh>
           <Text
             {...subtitleProps}
-            position={[-0.7, 0.2, 0]}
+            position={[-1.3, 0.2, 0]}
             fontSize={0.3}>
-            {project.date.toUpperCase()}
+            {project.category.toUpperCase()}
           </Text>
         </group>
         <Text

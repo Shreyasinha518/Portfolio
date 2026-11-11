@@ -61,7 +61,7 @@ const Experience = () => {
         </group>
 
         <group position={[0, -1, 0]} ref={groupRef}>
-          <GridTile title='WORK AND EDUCATION'
+          <GridTile title='EDUCATION & HIGHLIGHTS'
             id="work"
             color='#202b34'
             textAlign='left'

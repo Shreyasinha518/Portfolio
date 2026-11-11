@@ -32,7 +32,7 @@ const TextWindow = () => {
         {...fontProps}
         scale={[1, -1, 1]}
         rotation={[0, 0,  -Math.PI / 2]}>
-        FRONTEND ENGINEER
+        COMPUTER SCIENCE
       </Text>
 
       <Text color="white" anchorX="right" anchorY="middle"
@@ -41,7 +41,7 @@ const TextWindow = () => {
         fontSize={1.3}
         position={[0.12, 0, -1.4]}
         rotation={[0, 0,  -Math.PI / 2]}>
-        PYTHON & DATA ANALYTICS
+        ENGINEERING STUDENT
       </Text>
 
       <group position={[-0.45, 0, -0.3]}>
@@ -50,7 +50,7 @@ const TextWindow = () => {
           scale={[1, -1, 1]}
           fontSize={0.8}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-          DESIGN · PYTHON DEVELOPMENT
+          PYTHON · JAVA · C
         </Text>
 
         <Text color="white" anchorX="left" anchorY="middle"
@@ -59,7 +59,7 @@ const TextWindow = () => {
           fontSize={0.8}
           position={[0, 0, -0.6]}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-         MACHINE LEARNING
+         DATA SCIENCE · ML
         </Text>
       </group>
 
@@ -69,7 +69,7 @@ const TextWindow = () => {
           scale={[-1, -1, 1]}
           fontSize={0.8}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-          CREATIVE TECHNOLOGY
+          FRONTEND · FULL-STACK
         </Text>
         <Text color="white" anchorX="right" anchorY="middle"
           {...fontProps}
@@ -77,7 +77,7 @@ const TextWindow = () => {
           fontSize={0.8}
           position={[0, 0, -0.6]}
           rotation={[0, -Math.PI / 2,  -Math.PI / 2]}>
-          ANALYTICAL · CREATIVE
+          OPEN TO INTERNSHIPS
         </Text>
       </group>
     </group>
