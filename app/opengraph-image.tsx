@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt = "Shreya Sinha - Computer Science undergraduate portfolio";
+export const dynamic = "force-static";
 export const size = {
   width: 1200,
   height: 630,
